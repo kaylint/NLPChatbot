@@ -1,6 +1,8 @@
 # imports
 from chatterbot import ChatBot
 from flask import Flask, render_template, request, jsonify
+from chatterbot.trainers import ListTrainer
+from chatterbot.trainers import ChatterBotCorpusTrainer
 import json
 
 app = Flask(__name__)
@@ -30,10 +32,10 @@ bot = ChatBot(
 # train bot - custom corpus
 trainer = ChatterBotCorpusTrainer(bot)
 trainer.train(
-    "data/conversation.yml",
-    "data/faq.yaml",
-    "data/greetings.yaml",
-    "data/orders.yaml"
+    "../data/conversation.yml",
+    "../data/faq.yaml",
+    "../data/greetings.yaml",
+    "../data/orders.yaml"
 )
 
 # #train bot - english corpus
