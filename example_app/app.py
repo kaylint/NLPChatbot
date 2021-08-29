@@ -33,15 +33,15 @@ def create_app():
     # train bot - custom corpus
     trainer = ChatterBotCorpusTrainer(bot)
     trainer.train(
-        #"./data/conversation.yml",
-        #"./data/faq.yaml",
-        #"./data/greetings.yaml",
+        "./data/conversation.yml",
+        "./data/faq.yaml",
+        "./data/greetings.yaml",
         "./data/orders.yaml"
     )
 
     # #train bot - english corpus
-    #trainer = ChatterBotCorpusTrainer(bot)
-    #trainer.train("chatterbot.corpus.english")
+    trainer = ChatterBotCorpusTrainer(bot)
+    trainer.train("chatterbot.corpus.english")
 
     @app.route("/")
     def home():
