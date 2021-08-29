@@ -32,10 +32,10 @@ bot = ChatBot(
 # train bot - custom corpus
 trainer = ChatterBotCorpusTrainer(bot)
 trainer.train(
-    "../data/conversation.yml",
-    "../data/faq.yaml",
-    "../data/greetings.yaml",
-    "../data/orders.yaml"
+    "./data/conversation.yml",
+    "./data/faq.yaml",
+    "./data/greetings.yaml",
+    "./data/orders.yaml"
 )
 
 # #train bot - english corpus
