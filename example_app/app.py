@@ -21,7 +21,7 @@ def create_app():
             {
                 "import_path": "chatterbot.logic.BestMatch",
                 'default_response': 'I am sorry, but I do not understand.',
-                'maximum_similarity_threshold': 0.50
+                'maximum_similarity_threshold': 0.70
             },
 
 
