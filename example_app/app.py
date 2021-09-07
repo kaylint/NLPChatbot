@@ -36,7 +36,8 @@ def create_app():
         "./data/conversation.yml",
         "./data/faq.yaml",
         "./data/greetings.yaml",
-        "./data/orders.yaml"
+        "./data/orders.yaml",
+        "./data/dhlexpress.yaml"
     )
 
     # #train bot - english corpus

@@ -4,6 +4,12 @@ conversations:
 - - How can I track my shipment?
   - You can track your shipment using our website or one of our online portals. Usually
     your merchant or online shop sends you a link to track your shipment.
+- - How can I track my order?
+  - You can track your shipment using our website or one of our online portals. Usually
+    your merchant or online shop sends you a link to track your shipment.
+- - Where is my order?
+  - You can track your shipment using our website or one of our online portals. Usually
+    your merchant or online shop sends you a link to track your shipment.
 - - What is a tracking number or ID?
   - A tracking number or ID is a combination of numbers and or or letters that uniquely
     identifies your shipment. The ID length may vary from 10 to 39 characters.
@@ -20,6 +26,19 @@ conversations:
     to us, i.e. once the shipment has departed the fulfillment center of your merchant
     or online shop.
 - - Why is my shipment status unchanged?
+  - For most shipments, we provide only milestone tracking which means it may take
+    some time before a new tracking event is displayed. Your package continues to
+    travel to its destination despite the time between the tracking events. Depending
+    on the destination, it could also take time to arrive in the destination country
+    due to the distance and transit time of the selected service.Your shipment might
+    also be delayed. Delivery delays can be caused by events beyond the control of
+    DHL, e.g. weather events, local disruptions like public holidays, customs or strikes.
+    In the event your shipment has not arrived within 10 days after the expected delivery
+    time, kindly contact your merchant or online shop. The merchant or online shop
+    as our contract partner can start an investigation for lost items.Please also
+    note that some packages only have limited tracking events in the country of origin
+    and no tracking events in the destination country.
+- - Shipment Status
   - For most shipments, we provide only milestone tracking which means it may take
     some time before a new tracking event is displayed. Your package continues to
     travel to its destination despite the time between the tracking events. Depending
@@ -95,6 +114,20 @@ conversations:
     on country, duties and taxes are settled with the post office or the customs office.
     You can find more information about customs on the website of your local customs
     authority.
+- - Taxes?
+  - Duties and taxes are consumption taxes. Customs duties are levied on certain goods
+    purchased abroad. Value added taxes (VAT) are usually levied in the country where
+    the purchased goods are consumed. Duties and taxes differ per country. Depending
+    on country, duties and taxes are settled with the post office or the customs office.
+    You can find more information about customs on the website of your local customs
+    authority.
+- - Duties?
+  - Duties and taxes are consumption taxes. Customs duties are levied on certain goods
+    purchased abroad. Value added taxes (VAT) are usually levied in the country where
+    the purchased goods are consumed. Duties and taxes differ per country. Depending
+    on country, duties and taxes are settled with the post office or the customs office.
+    You can find more information about customs on the website of your local customs
+    authority.
 - - Where is my order?
   - Please type your 3 digit order ID so we can proceed. e.g. 'Order IDXXX'.
 - - My order has not arrived.
@@ -125,6 +158,8 @@ conversations:
     the expected delivery time on its website. Delays of up to 10 days are unfortunately
     possible due to e.g. weather incidents, customs or operational backlogs.
 - - Where is my shipment?
+  - Please type your 3 digit order ID so we can proceed. e.g. 'Order IDXXX'.
+- - Where is my order?
   - Please type your 3 digit order ID so we can proceed. e.g. 'Order IDXXX'.
 - - Can you help me with my order?
   - Yes I can! Please type your 3 digit order ID so we can proceed. e.g. 'Order IDXXX'.
@@ -160,4 +195,29 @@ conversations:
     online shop.
 - - Where's my shipment?
   - Please type your 3 digit order ID so we can proceed.
+- - Where's my parcel?
+  - Please type your 3 digit order ID so we can proceed.
+- - Can I speak to someone?
+  - Yes, please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.
+- - I want to talk to your manager.
+  - Yes, please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.
+- - Can somebody help me?
+  - Yes, please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.
+- - I want to talk to a human!
+  - Yes, please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.
+- - I need more assistance
+  - Yes, please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.
+- - Help desk operator
+  - Yes, please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.
+- - Can I call?
+  - Yes, please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.
+- - What is your phone number?
+  - Yes, please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.
+- - What is your hotline?
+  - Yes, please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.
+- - Tell me more.
+  - Please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.
+
+
+
 

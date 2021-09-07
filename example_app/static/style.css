@@ -4,7 +4,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 body {
@@ -20,6 +20,8 @@ body {
 
 .header {
     grid-column: 1 / -1;
+    background-color: #EDF6E5;
+    font-family: 'Karla', sans-serif;
 }
 
 .hero-section {
@@ -83,10 +85,12 @@ body {
     font-weight: bold;
     margin: 0;
     padding: 0;
+    font-family: 'Spectral', serif;
 }
 
 .hero-subtext {
     max-width: 38rem;
+    font-family: 'Karla', sans-serif;
 }
 
 .chat-section {
@@ -106,15 +110,15 @@ body {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: grey;
+    background-color: #FFFFFF;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 .chat-bubble {
     border-radius: 5px;
-    border-color: grey;
-    background-color: red;
+    border-color: white;
+    background-color: #F6E5E4;
     margin: 1rem;
     padding: 1rem;
     width: calc(100% - 16em);
@@ -123,11 +127,13 @@ body {
 }
 
 .chat-bubble.theirs {
-    background-color: white;
+    background-color: #F6F4E4;
+    font-family: 'Karla', sans-serif;
 }
 
 .chat-bubble.ours {
-    background-color: yellowgreen;
+    background-color: #EDF6E5;
+    font-family: 'Karla', sans-serif;
     position: relative;
     left: 9.5rem;
 }
@@ -136,7 +142,7 @@ body {
     padding: 1rem;
     display: flex;
     flex-flow: row nowrap;
-    border: 1px solid grey;
+    border: 1px solid white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -146,19 +152,28 @@ body {
     padding: 0.5rem 1rem;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    font-family: 'Karla', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E9EDED;
 }
 
 .send-button {
     padding: 0.5rem 2rem;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    color: black;
+    background-color: #EDF6E5;
+    border-style: none;
 }
 
 .send-button[disabled] {
-    color: grey;
-    background-color: red;
+    color: black;
+    background-color: #F0EFEA;
+    border-style: none;
 }
 
 .footer {
     padding: 1rem 2rem;
+    font-family: 'Karla', sans-serif;
 }
