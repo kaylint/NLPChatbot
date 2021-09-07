@@ -21,11 +21,11 @@ def create_app():
             {
                 "import_path": "chatterbot.logic.BestMatch",
                 'default_response': 'I am sorry, but I do not understand.',
-                'maximum_similarity_threshold': 0.70
+                'maximum_similarity_threshold': 0.65
             },
 
 
-            # 'chatterbot.logic.TimeLogicAdapter'
+            'chatterbot.logic.TimeLogicAdapter'
         ],
         database_uri='sqlite:///database.sqlite3'
     )
