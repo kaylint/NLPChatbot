@@ -24,7 +24,7 @@ def create_app():
                 'maximum_similarity_threshold': 0.7
             },
             'chatterbot.logic.MathematicalEvaluation',
-            'chatterbot.logic.TimeLogicAdapter'
+            #'chatterbot.logic.TimeLogicAdapter'
         ],
         database_uri='sqlite:///database.sqlite3'
     )
