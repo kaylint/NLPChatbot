@@ -64,8 +64,8 @@ conversations:
     indicates the delivery time on its website.Please keep in mind that delivery
     times can vary depending on the product or service chosen and origin or destination
     relation; from 2-3 days for neighboring countries and up to 20 days for countries
-    with long distances.Please also keep in mind that \u2013 depending on the product
-    or service chosen \u2013 the shipment will normally be handed over to the respective
+    with long distances.Please also keep in mind that  depending on the product
+    or service chosen  the shipment will normally be handed over to the respective
     local postal company in your country for final delivery to you.
 - - Why has my shipment not been delivered yet?
   - Please keep in mind that usual delivery times can vary depending on the product or
@@ -267,3 +267,27 @@ conversations:
     days for countries with long distances. The merchant or online shop usually indicates
     the expected delivery time on its website. Delays of up to 10 days are unfortunately
     possible due to e.g. weather incidents, customs or operational backlogs.
+- - air shipment
+  - The fastest service we have typically delivers within 24 hours. To find out more, please go to https://www.dhl.com/us-en/home/our-divisions/global-forwarding/air-freight.html.
+- - deliver mail
+  - Yes, of course we deliver mail. It will take between 4 and 6 days before it will be delivered. If you choose to consolidate your shipments then delivery will take longer since we need to wait until all the packages have arrived. These are estimates, not guarantees; shipping time can vary depending on factors such as weather, possible customs delays, and whether the delivery address is in a city or a remote area.
+- - how long does delivery take
+  - It will take between 4 and 6 days before it will be delivered. If you choose to consolidate your shipments then delivery will take longer since we need to wait until all the packages have arrived. These are estimates, not guarantees; shipping time can vary depending on factors such as weather, possible customs delays, and whether the delivery address is in a city or a remote area.
+- - how to deliver
+  - Find out more here at https://www.dhlexpress.be/en/dhl-news/how-to-send-a-parcel-in-five-easy-steps/
+- - parcel delivery
+  - Find out more here at https://www.dhlexpress.be/en/dhl-news/how-to-send-a-parcel-in-five-easy-steps/
+- - deliver a box
+  - Find out more here at https://www.dhlexpress.be/en/dhl-news/how-to-send-a-parcel-in-five-easy-steps/
+- - delivery charges
+  - To find out more, please go to https://www.dhl.com/us-en/home/our-divisions/global-forwarding/air-freight.html
+- - how long does delivery take
+  - The fastest service we have typically delivers within 24 hours. To find out more, please go to https://www.dhl.com/us-en/home/our-divisions/global-forwarding/air-freight.html.
+- - change delivery date
+  - No problem, please go to https://www.dhl.com/sg-en/home/redelivery.html.
+- - i want to change my delivery date
+  - No problem, please go to https://www.dhl.com/sg-en/home/redelivery.html.
+- - i'd like to change delivery date
+  - No problem, please go to https://www.dhl.com/sg-en/home/redelivery.html.
+- - schedule a delivery
+  - No problem, please go to https://www.dhl.com/sg-en/home/redelivery.html.

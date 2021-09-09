@@ -5,6 +5,7 @@ conversations:
   - Hi there!
 - - How are you doing?
   - I'm doing great.
+  - That is good to hear.
 - - Thank you
   - You're welcome
 - - thanks
@@ -46,7 +47,9 @@ conversations:
 - - im ok
   - That is good to hear
 - - What is your name?
-  - My name is chatbot, but you can call me whatever you like. 
+  - My name is chatbot. However, I also respond to BATMAN!
+- - do you have a name
+  - I guess you can call me chatbot. However, I also respond to BATMAN!
 - - ok
   - Is there anything else I can help with?
 - - ok thanks
