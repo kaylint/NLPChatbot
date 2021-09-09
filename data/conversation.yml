@@ -11,6 +11,14 @@ conversations:
   - That is nice.
 - - tell me a joke
   - I invented a new word. Plagiarism.
+- - another joke
+  - A man went to the bee store and asked for 5 bees. The shop owner gave him 6 bees instead. The man said "hey, you gave me an extra bee" What did the shop owner say? The shop owner said "oh, that's a freebie.".
+- - more joke
+  - I was wondering why the frisbee kept getting bigger and bigger, but then it hit me.
+- - do you have any jokes?
+  - Why was the Easter Bunny so upset? He was having a bad HARE day.
+- - i want to hear a joke
+  - I invented a new word. Plagiarism.
 - - Tell me something funny
   - I was wondering why the frisbee kept getting bigger and bigger, but then it hit me.
   - Russian dolls are so full of themselves.
@@ -54,10 +62,11 @@ conversations:
 - - why did you say bye?
   - No reason, I just felt like it was time to bid you farewell.
 - - What time is it?
-  - You can check your watch, computer or just ask a friend.
+  - It is time for DSI class to end. Goodbye.
 - - welcome
   - No problem!
 - - who are you
   - I am DHL Helpdesk, but you can call me Bruce Lee.
 - - who am i
   - To be honest, I don't really know, but I guess you are a friendly customer who needs some help.
+
