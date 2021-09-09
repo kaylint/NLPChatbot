@@ -37,11 +37,11 @@ def create_app():
     # train bot - custom corpus
     trainer = ChatterBotCorpusTrainer(bot)
     trainer.train(
-        "../data/conversation.yml",
-        "../data/faq.yaml",
-        "../data/greetings.yaml",
-        "../data/orders.yaml",
-        "../data/dhlexpress.yaml"
+        "./data/conversation.yml",
+        "./data/faq.yaml",
+        "./data/greetings.yaml",
+        "./data/orders.yaml",
+        "./data/dhlexpress.yaml"
     )
 
     # #train bot - english corpus
