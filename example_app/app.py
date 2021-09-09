@@ -5,8 +5,6 @@ from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.response_selection import get_random_response
 import json
-from mypreprocessors import lower
-
 
 
 def create_app():
@@ -17,7 +15,7 @@ def create_app():
     bot = ChatBot(
         'Bob',
         response_selection_method=get_random_response,
-        preprocessors=["chatterbot.preprocessors.clean_whitespace", "mypreprocessors.lower"],
+        preprocessors='chatterbot.preprocessors.clean_whitespace',
         storage_adapter='chatterbot.storage.SQLStorageAdapter',
         logic_adapters=[
             {
