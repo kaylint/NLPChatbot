@@ -21,6 +21,7 @@ def create_app():
     bot = ChatBot(
         'Bob',
         response_selection_method=get_random_response,
+        preprocessors=["chatterbot.preprocessors.clean_whitespace", "mypreprocessors.lower"],
         storage_adapter='chatterbot.storage.SQLStorageAdapter',
         logic_adapters=[
             {
