@@ -21,7 +21,8 @@ def create_app():
             {
                 "import_path": "chatterbot.logic.BestMatch",
                 'default_response': 'I am sorry, but I do not understand. To find out more, please call our friendly hotline at +65 1234 5678, open daily from 8am to 8pm.',
-                'maximum_similarity_threshold': 0.7
+                'maximum_similarity_threshold': 0.7,
+                "response_selection_method": "chatterbot.response_selection.get_random_response"
             },
             'chatterbot.logic.MathematicalEvaluation',
             #'chatterbot.logic.TimeLogicAdapter'
