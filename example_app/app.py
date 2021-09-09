@@ -5,6 +5,7 @@ from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.response_selection import get_random_response
 import json
+import mypreprocessors
 
 def create_app():
     app = Flask(__name__)
@@ -14,7 +15,7 @@ def create_app():
     bot = ChatBot(
         'Bob',
         response_selection_method=get_random_response,
-        #preprocessors=["chatterbot.preprocessors.clean_whitespace", "mypreprocessors.lower"],
+        preprocessors=["chatterbot.preprocessors.clean_whitespace", "mypreprocessors.lower"],
         storage_adapter='chatterbot.storage.SQLStorageAdapter',
         logic_adapters=[
             {
@@ -31,11 +32,11 @@ def create_app():
     # train bot - custom corpus
     trainer = ChatterBotCorpusTrainer(bot)
     trainer.train(
-        "./data/conversation.yml",
-        "./data/faq.yaml",
-        "./data/greetings.yaml",
-        "./data/orders.yaml",
-        "./data/dhlexpress.yaml"
+        "../data/conversation.yml",
+        "../data/faq.yaml",
+        "../data/greetings.yaml",
+        "../data/orders.yaml",
+        "../data/dhlexpress.yaml"
     )
 
     # #train bot - english corpus
