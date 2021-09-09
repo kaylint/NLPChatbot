@@ -5,24 +5,21 @@ from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.response_selection import get_random_response
 import json
-import mypreprocessors
+from chatterbot.conversation import Statement
 
+def lower(statement: Statement):
+    statement.text = statement.text.lower()
+    return statement
 
 def create_app():
     app = Flask(__name__)
 
     # create instance
-    bot = ChatBot(
-        "Bob",
-        preprocessors=['chatterbot.preprocessors.clean_whitespace'])
-
-        
-
     # set up sql database
     bot = ChatBot(
         'Bob',
         response_selection_method=get_random_response,
-        preprocessors=["chatterbot.preprocessors.clean_whitespace", "mypreprocessors.lower"],
+        preprocessors=["chatterbot.preprocessors.clean_whitespace", "lower"],
         storage_adapter='chatterbot.storage.SQLStorageAdapter',
         logic_adapters=[
             {
