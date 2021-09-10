@@ -16,7 +16,7 @@ def create_app():
         'Bob',
         response_selection_method=get_random_response,
         #preprocessors=["chatterbot.preprocessors.clean_whitespace", "mypreprocessors.lower"],
-        preprocessors="chatterbot.preprocessors.clean_whitespace",
+        preprocessors=["chatterbot.preprocessors.clean_whitespace"],
         storage_adapter='chatterbot.storage.SQLStorageAdapter',
         logic_adapters=[
             {
